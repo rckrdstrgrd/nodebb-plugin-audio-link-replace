@@ -1,7 +1,7 @@
 "use strict";
 var plugin = {
     regexPattern: /<a href=".*\/uploads\/files\/(\w*-(.*\.mp3|.*\.ogg|.*\.wav)).*>(.*)<\/a>/ig,
-    embed: '<audio src="/uploads/files/$1" controls="controls" preload="none"><a href="/uploads/files/$1">$3</a></audio>'
+    embed: '<br>$3<br><audio src="/uploads/files/$1" controls="controls" preload="none"><a href="/uploads/files/$1">$3</a></audio>'
 };
 
 plugin.parse = function (data, callback) {
