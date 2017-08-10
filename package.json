@@ -1,0 +1,11 @@
+{
+  "name": "nodebb-plugin-audio-link-replace",
+  "version": "0.0.1",
+  "description": "NodeBB plugin that will find and replace audio file links with the <audio> tag",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rickard Östergård",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+    "id": "nodebb-plugin-audio-link-replace",
+    "url": "",
+    "library": "./library.js",
+    "hooks": [
+        { "hook": "filter:parse.post", "method": "parse"}
+    ]
+}
